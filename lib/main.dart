@@ -1,14 +1,13 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; 
+import 'gradient_container.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.deepPurple,
-        body: Center(
-          child: Text('Hi This is my  text!', selectionColor: Colors.white,),
-        ),
+        body: GradientContainer(),
       ),
     ),
   );
 }
+
